@@ -4,6 +4,7 @@
 }
 .navbar{
 	border-radius: 0;/*elimina borde redondeado de nav*/
+
 }
 .navbar-inverse{
 	margin:auto;/*elimina espacio entre header y section1*/
@@ -32,4 +33,60 @@
 
 .showApp{
 	color: #FFF;
+}
+
+.app{
+	padding: 2em 0;
+	color: #5A5A5A;
+}
+
+/*SEGUNDA SECCION */
+.second-section{
+	background-color: #FFF;
+	padding: 5em 0;
+}
+.ourApp{
+	padding: 3em 0;
+	color: #5A5A5A;
+}
+
+
+.title-second{
+	color: #D2527F;
+}
+.features{
+	padding: 0.8em;
+}
+.features:hover{
+	background-color: #F2F2F2;
+	cursor: pointer;
+}
+
+p{
+	padding: 0;
+	margin-bottom: 1em;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 28px;
+	color: #666;
+	margin-top: 1em;
+}
+
+/*TERCERA SECCION :BOTONES*/
+.third-section{
+	background-color: #F2F2F2;
+	height: 100vh;
+}
+.btn-default{
+	color: #FFF;
+	background-color: #D2527F;
+	border-color: #B4215D;
+}
+
+.btn-default:hover{
+	background-color: #C53A6D;
+	color: #FFF;
+}
+.btns{
+	padding-top: 5em;
 }
